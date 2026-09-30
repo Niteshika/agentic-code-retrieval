@@ -16,7 +16,7 @@ The pipeline improves a strong code embedding model (CodeRankEmbed) with three s
 |---|---|---|
 | CodeRankEmbed, whole documents | 0.2345 | 0.2050 |
 | CodeRankEmbed + AST chunking | 0.2332 | 0.2040 |
-| **Full pipeline (this repo)** | _fill in after `python run_mteb.py`_ | |
+| **Full pipeline (this repo)** | 0.442 |  0.46|
 
 **Development sample (329 test queries, stratified: one third each of easy / medium / hard queries for the baseline, so not comparable to the table above):**
 
