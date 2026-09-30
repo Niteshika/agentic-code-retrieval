@@ -12,9 +12,10 @@ The pipeline improves a strong code embedding model (CodeRankEmbed) with three s
 
 | Resource | Link |
 |---|---|
-| Presentation (PPT) | [Add link here](https://docs.google.com/presentation/d/1g40I-GGLh-d8hCcTYE-Z9ghFrR0aE3nq/edit?usp=sharing&ouid=107854809194960872769&rtpof=true&sd=true) |
-| Demo video | [Add link here](https://drive.google.com/file/d/1Nqcf-HrNGMWMri-jJeyykRH287SHm8XX/view?usp=sharing) |
-| Google Colab notebook | [Add link here](https://colab.research.google.com/drive/1P38uxczsQdhBd-hXW2GbLYSxucy_8kkU?usp=sharing) |
+| Presentation (PPT) | [link](https://docs.google.com/presentation/d/1g40I-GGLh-d8hCcTYE-Z9ghFrR0aE3nq/edit?usp=sharing&ouid=107854809194960872769&rtpof=true&sd=true) |
+| Demo video | [link](https://drive.google.com/file/d/1Nqcf-HrNGMWMri-jJeyykRH287SHm8XX/view?usp=sharing) |
+| Google Colab notebook | [link](https://colab.research.google.com/drive/1P38uxczsQdhBd-hXW2GbLYSxucy_8kkU?usp=sharing) |
+| AI Disclosure | [link](https://docs.google.com/document/d/1moaZWFMAzx2Je09MXqp6yk4OO2puPj6y/edit?usp=sharing&ouid=107854809194960872769&rtpof=true&sd=true) |
 
 ## Results
 
