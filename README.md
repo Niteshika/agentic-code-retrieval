@@ -8,6 +8,14 @@ The pipeline improves a strong code embedding model (CodeRankEmbed) with three s
 2. **Query pre-processing:** an LLM (Gemini or OpenAI) reads the problem and writes a short **code sketch**. Searching with code instead of the story closes the text-to-code gap, which was the main cause of failures.
 3. **Second retrieval pass (review):** the top candidates from the sketch search and the original query are **run on the example tests** in the problem statement. Candidates that print the expected output move to the top.
 
+## Links
+
+| Resource | Link |
+|---|---|
+| Presentation (PPT) | [Add link here](https://docs.google.com/presentation/d/1g40I-GGLh-d8hCcTYE-Z9ghFrR0aE3nq/edit?usp=sharing&ouid=107854809194960872769&rtpof=true&sd=true) |
+| Demo video | [Add link here](https://drive.google.com/file/d/1Nqcf-HrNGMWMri-jJeyykRH287SHm8XX/view?usp=sharing) |
+| Google Colab notebook | [Add link here](https://colab.research.google.com/drive/1P38uxczsQdhBd-hXW2GbLYSxucy_8kkU?usp=sharing) |
+
 ## Results
 
 **Full AppsRetrieval test split (3,765 queries), via MTEB:**
