@@ -157,7 +157,6 @@ tests/             unit tests (no model or API needed): python -m pytest
 
 ## Limitations and notes
 
-- **Memorization.** APPS problems are public (Codeforces, AtCoder), so the LLM may recall known solutions, which can make the sketch look better than it would on unseen code.
 - **The review needs example tests in the query.** Queries without readable examples (about 3% of the development sample) keep the fused ranking. Wrong solutions sometimes pass small examples; problems with several valid answers can make the correct solution fail.
 - **The review executes code from the corpus.** Each run is a separate process with a time limit and (on Linux/macOS) a memory limit, in a temporary folder. Run it in a container or VM if the corpus is untrusted. On Windows the memory limit is not applied.
 - **Search interface vs. encoder.** The review has to see candidates, so the full pipeline uses MTEB's search interface (`index`/`search`); the JSON is still produced by `mteb.evaluate`. `--mode encoder` provides the template's `AbsEncoder` version without the review.
