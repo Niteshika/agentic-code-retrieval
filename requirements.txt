@@ -1,0 +1,24 @@
+# Evaluation
+mteb==2.21.8
+
+# Embedding model (CodeRankEmbed needs its custom model code; transformers >= 5.12 removed a function it uses)
+sentence-transformers>=3.0
+transformers>=4.40,<5.12
+torch>=2.0
+einops>=0.7
+
+# AST chunking
+tree-sitter>=0.23
+tree-sitter-python>=0.23
+
+# LLM query pre-processing (OpenAI or Gemini)
+openai>=1.40
+google-genai>=1.0
+
+# Utilities
+numpy>=1.23
+python-dotenv>=1.0
+tqdm>=4.60
+
+# Tests (optional)
+pytest>=7.0
