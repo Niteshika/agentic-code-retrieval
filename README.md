@@ -13,7 +13,7 @@ The pipeline improves a strong code embedding model (CodeRankEmbed) with three s
 **Full AppsRetrieval test split (3,765 queries), via MTEB:**
 
 | Configuration | nDCG@10 | 
-|---|---|---|
+|---|---|
 | CodeRankEmbed, whole documents | 0.2345 |
 | CodeRankEmbed + AST chunking | 0.2332 |
 | **Full pipeline (this repo)** | 0.442 |
